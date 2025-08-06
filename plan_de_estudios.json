@@ -1,0 +1,459 @@
+[
+  {
+    "numero": 1,
+    "nivel": "A",
+    "codigo": "1803001",
+    "materia": "Inglés I",
+    "estado": "Aprobada",
+    "dificultad": "Facil",
+    "descripcion": "No tomar con la benita Juarez"
+  },
+  {
+    "numero": 2,
+    "nivel": "A",
+    "codigo": "2006063",
+    "materia": "Física General",
+    "estado": "Aprobada",
+    "dificultad": "Media"
+  },
+  {
+    "numero": 3,
+    "nivel": "A",
+    "codigo": "2008019",
+    "materia": "Álgebra I",
+    "estado": "Aprobada",
+    "dificultad": "Media"
+  },
+  {
+    "numero": 4,
+    "nivel": "A",
+    "codigo": "2008054",
+    "materia": "Cálculo I",
+    "estado": "Aprobada",
+    "dificultad": "Alta"
+  },
+  {
+    "numero": 5,
+    "nivel": "A",
+    "codigo": "2010010",
+    "materia": "Introducción a la Programación",
+    "estado": "Aprobada",
+    "dificultad": "Alta"
+  },
+  {
+    "numero": 6,
+    "nivel": "A",
+    "codigo": "2010140",
+    "materia": "Metodología de Investigación y Técnicas de Comunicación",
+    "estado": "Aprobada",
+    "dificultad": "EZ"
+  },
+  {
+    "numero": 7,
+    "nivel": "B",
+    "codigo": "2008022",
+    "materia": "Álgebra II",
+    "estado": "Aprobada",
+    "dificultad": "Alta"
+  },
+  {
+    "numero": 8,
+    "nivel": "B",
+    "codigo": "2008056",
+    "materia": "Cálculo II",
+    "estado": "Aprobada",
+    "dificultad": "Alta"
+  },
+  {
+    "numero": 9,
+    "nivel": "B",
+    "codigo": "2008057",
+    "materia": "Matemática Discreta",
+    "estado": "Aprobada",
+    "dificultad": "EZ"
+  },
+  {
+    "numero": 10,
+    "nivel": "B",
+    "codigo": "2010003",
+    "materia": "Elementos de Programación y Estructuras de Datos",
+    "estado": "Aprobada",
+    "dificultad": "Muy Alta"
+  },
+  {
+    "numero": 11,
+    "nivel": "B",
+    "codigo": "2010013",
+    "materia": "Arquitectura de Computadoras I",
+    "estado": "Aprobada",
+    "dificultad": "EZ"
+  },
+  {
+    "numero": 12,
+    "nivel": "C",
+    "codigo": "2008058",
+    "materia": "Ecuaciones Diferenciales",
+    "estado": "Aprobada",
+    "dificultad": "Muy Alta"
+  },
+  {
+    "numero": 13,
+    "nivel": "C",
+    "codigo": "2008059",
+    "materia": "Estadística I",
+    "estado": "Aprobada",
+    "dificultad": "EZ"
+  },
+  {
+    "numero": 14,
+    "nivel": "C",
+    "codigo": "2008060",
+    "materia": "Cálculo Numérico",
+    "estado": "Aprobada",
+    "dificultad": "Media"
+  },
+  {
+    "numero": 15,
+    "nivel": "C",
+    "codigo": "2010012",
+    "materia": "Métodos, Técnicas y Taller de Programación",
+    "estado": "Aprobada",
+    "dificultad": "Media"
+  },
+  {
+    "numero": 16,
+    "nivel": "C",
+    "codigo": "2010015",
+    "materia": "Base de Datos I",
+    "estado": "Aprobada",
+    "dificultad": "EZ"
+  },
+  {
+    "numero": 17,
+    "nivel": "C",
+    "codigo": "2010141",
+    "materia": "Circuitos Electrónicos",
+    "estado": "Aprobada",
+    "dificultad": "Media"
+  },
+  {
+    "numero": 18,
+    "nivel": "D",
+    "codigo": "2008061",
+    "materia": "Estadística II",
+    "estado": "Aprobada",
+    "dificultad": "Media"
+  },
+  {
+    "numero": 19,
+    "nivel": "D",
+    "codigo": "2010016",
+    "materia": "Base de Datos II",
+    "estado": "Aprobada",
+    "dificultad": "Alta"
+  },
+  {
+    "numero": 20,
+    "nivel": "D",
+    "codigo": "2010017",
+    "materia": "Taller de Sistemas Operativos",
+    "estado": "Aprobada",
+    "dificultad": "Alta"
+  },
+  {
+    "numero": 21,
+    "nivel": "D",
+    "codigo": "2010018",
+    "materia": "Sistemas de Información I",
+    "estado": "Aprobada",
+    "dificultad": "Media"
+  },
+  {
+    "numero": 22,
+    "nivel": "D",
+    "codigo": "2016046",
+    "materia": "Contabilidad Básica",
+    "estado": "Aprobada",
+    "dificultad": "Media"
+  },
+  {
+    "numero": 23,
+    "nivel": "D",
+    "codigo": "2016048",
+    "materia": "Investigación Operativa I",
+    "estado": "Aprobada",
+    "dificultad": "Media"
+  },
+  {
+    "numero": 24,
+    "nivel": "E",
+    "codigo": "1803002",
+    "materia": "Inglés II",
+    "estado": "Aprobada",
+    "dificultad": "EZ"
+  },
+  {
+    "numero": 25,
+    "nivel": "E",
+    "codigo": "2010022",
+    "materia": "Sistemas de Información II",
+    "estado": "Aprobada",
+    "dificultad": "Media"
+  },
+  {
+    "numero": 26,
+    "nivel": "E",
+    "codigo": "2010035",
+    "materia": "Aplicación de Sistemas Operativos",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 27,
+    "nivel": "E",
+    "codigo": "2010053",
+    "materia": "Taller de Base de Datos",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 28,
+    "nivel": "E",
+    "codigo": "2010142",
+    "materia": "Sistemas I",
+    "estado": "Aprobada",
+    "dificultad": "EZ"
+  },
+  {
+    "numero": 29,
+    "nivel": "E",
+    "codigo": "2016051",
+    "materia": "Investigación Operativa II",
+    "estado": "Aprobada",
+    "dificultad": "Alta"
+  },
+  {
+    "numero": 30,
+    "nivel": "E",
+    "codigo": "2016057",
+    "materia": "Mercadotecnia",
+    "estado": "Aprobada",
+    "dificultad": "EZ"
+  },
+  {
+    "numero": 31,
+    "nivel": "F",
+    "codigo": "2010019",
+    "materia": "Simulación de Sistemas",
+    "estado": "Aprobada",
+    "dificultad": "EZ"
+  },
+  {
+    "numero": 32,
+    "nivel": "F",
+    "codigo": "2010020",
+    "materia": "Ingeniería de Software",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 33,
+    "nivel": "F",
+    "codigo": "2010027",
+    "materia": "Inteligencia Artificial",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 34,
+    "nivel": "F",
+    "codigo": "2010047",
+    "materia": "Redes de Computadoras",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 35,
+    "nivel": "F",
+    "codigo": "2010143",
+    "materia": "Sistemas II",
+    "estado": "Aprobada",
+    "dificultad": "EZ"
+  },
+  {
+    "numero": 36,
+    "nivel": "F",
+    "codigo": "2010144",
+    "materia": "Sistemas Económicos",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 37,
+    "nivel": "F",
+    "codigo": "2010182",
+    "materia": "Telefonía IP",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 38,
+    "nivel": "G",
+    "codigo": "2010024",
+    "materia": "Taller de Ingeniería de Software",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 39,
+    "nivel": "G",
+    "codigo": "2010145",
+    "materia": "Gestión de Calidad de Software",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 40,
+    "nivel": "G",
+    "codigo": "2010146",
+    "materia": "Redes Avanzadas de Computadoras",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 41,
+    "nivel": "G",
+    "codigo": "2010186",
+    "materia": "Dinámica de Sistemas",
+    "estado": "Aprobada",
+    "dificultad": "Alta"
+  },
+  {
+    "numero": 42,
+    "nivel": "G",
+    "codigo": "2016092",
+    "materia": "Planificación y Evaluación de Proyectos",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 43,
+    "nivel": "G",
+    "codigo": "2010211",
+    "materia": "Aplicaciones Interactivas para Televisión Digital",
+    "estado": "Pendiente",
+    "dificultad": "Electiva recomendada"
+  },
+  {
+    "numero": 44,
+    "nivel": "H",
+    "codigo": "1803009",
+    "materia": "Inglés III",
+    "estado": "Aprobada",
+    "dificultad": "EZ"
+  },
+  {
+    "numero": 45,
+    "nivel": "H",
+    "codigo": "2010102",
+    "materia": "Evaluación y Auditoría de Sistemas",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 46,
+    "nivel": "H",
+    "codigo": "2010116",
+    "materia": "Taller de Simulación de Sistemas",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 47,
+    "nivel": "H",
+    "codigo": "2010119",
+    "materia": "Metodología y Planificación de Proyecto de Grado",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 48,
+    "nivel": "H",
+    "codigo": "2010209",
+    "materia": "Seguridad de Sistemas",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 49,
+    "nivel": "H",
+    "codigo": "2016059",
+    "materia": "Gestión Estratégica de Empresas",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 50,
+    "nivel": "H",
+    "codigo": "2010034",
+    "materia": "Sistemas Colaborativos",
+    "estado": "Pendiente",
+    "dificultad": "Electiva recomendada"
+  },
+  {
+    "numero": 51,
+    "nivel": "I",
+    "codigo": "2010122",
+    "materia": "Proyecto Final (Taller de Titulación)",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 52,
+    "nivel": "I",
+    "codigo": "2010147",
+    "materia": "Práctica Empresarial",
+    "estado": "Pendiente",
+    "dificultad": ""
+  },
+  {
+    "numero": 53,
+    "nivel": "I",
+    "codigo": "2010079",
+    "materia": "Web Semánticas",
+    "estado": "Pendiente",
+    "dificultad": "Electiva recomendada"
+  },
+  {
+    "numero": 54,
+    "nivel": "I",
+    "codigo": "2010103",
+    "materia": "Robótica",
+    "estado": "Pendiente",
+    "dificultad": "Electiva recomendada"
+  },
+  {
+    "numero": 55,
+    "nivel": "J",
+    "codigo": "2010033",
+    "materia": "Generación de Software",
+    "estado": "Pendiente",
+    "dificultad": "Electiva recomendada"
+  },
+  {
+    "numero": 56,
+    "nivel": "J",
+    "codigo": "2010044",
+    "materia": "Diseño de Compiladores",
+    "estado": "Pendiente",
+    "dificultad": "Electiva recomendada"
+  },
+  {
+    "numero": 57,
+    "nivel": "J",
+    "codigo": "2010191",
+    "materia": "Técnicas de Ruteo Avanzada",
+    "estado": "Pendiente",
+    "dificultad": "Electiva recomendada"
+  }
+]
