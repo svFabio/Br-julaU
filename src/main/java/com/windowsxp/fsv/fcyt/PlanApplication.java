@@ -10,6 +10,7 @@ import java.io.IOException;
 
 public class PlanApplication extends Application {
 
+
     @Override
     public void start(Stage stage) throws IOException {
         // Carga la vista de login como la primera y única ventana al iniciar.
@@ -28,6 +29,11 @@ public class PlanApplication extends Application {
     }
 
     public static void main(String[] args) {
+        // Le decimos al DatabaseManager que se conecte y prepare todo.
+        // Si el archivo .db no existe, lo creará aquí.
+        DatabaseManager.conectar();
+
+        // Después de que la base de datos está lista, lanzamos la interfaz gráfica.
         launch(args);
     }
 }
