@@ -1,63 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
-
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.TextField?>
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="892.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
-         fx:controller="com.windowsxp.fsv.fcyt.PlanController">
-  <tabs>
-    <Tab text="Bienvenido">
-        <content>
-            <VBox alignment="CENTER" spacing="15" style="-fx-background-color: #f0f2f5;">
 
-                <Label text="Bienvenido de Nuevo" style="-fx-font-size: 28px; -fx-font-weight: bold;" />
-                <Label text="Inicia sesión en tu cuenta" style="-fx-font-size: 14px; -fx-text-fill: #606770;" />
+<BorderPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.windowsxp.fsv.fcyt.PlanController">
 
-                <VBox maxWidth="350" spacing="5" style="-fx-padding: 20 0 0 0;">
-                    <Label text="Usuario o Email" style="-fx-font-weight: bold;" />
-                    <TextField fx:id="usuarioField" promptText="ej: fsv@fcyt.umss.edu.bo" style="-fx-font-size: 14px;"/>
+    <center>
+        <TabPane tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Bienvenido">
+                    <content>
+                        <VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #f0f2f5;">
+                            <children>
+                                <Label style="-fx-font-size: 32px; -fx-font-weight: bold;" text="¡Bienvenido al Sistema!" />
+                                <Label style="-fx-font-size: 16px;" text="Navega a la pestaña 'ElPlan' para ver tu progreso." />
+                            </children>
+                        </VBox>
+                    </content>
+                </Tab>
 
-                    <Label text="Contraseña" style="-fx-font-weight: bold; -fx-padding: 10 0 0 0;"/>
-                    <PasswordField fx:id="contrasenaField" promptText="Ingresa tu contraseña" style="-fx-font-size: 14px;"/>
-                </VBox>
+                <Tab text="ElPlan">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0">
+                            <children>
+                                <TableView fx:id="tableView" editable="true" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+                                    <columnResizePolicy>
+                                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                    </columnResizePolicy>
+                                    <columns>
+                                        <TableColumn fx:id="colNumero" prefWidth="33.6" text="Nº" />
+                                        <TableColumn fx:id="colNivel" prefWidth="42.4" text="NIVEL" />
+                                        <TableColumn fx:id="colCodigo" prefWidth="102.4" text="CODIGO" />
+                                        <TableColumn fx:id="colMateria" prefWidth="276.8" text="MATERIA" />
+                                        <TableColumn fx:id="colEstado" prefWidth="107.20001220703125" text="ESTADO" />
+                                        <TableColumn fx:id="colDificultad" prefWidth="87.20001220703125" text="DIFICULTAD" />
+                                        <TableColumn fx:id="colDescripcion" prefWidth="213.60003662109375" text="DESCRIPCION" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </center>
 
-                <Button fx:id="loginButton" text="INICIAR SESIÓN" defaultButton="true" prefHeight="40" prefWidth="350" style="-fx-background-color: #1877f2; -fx-text-fill: white; -fx-font-size: 16px; -fx-font-weight: bold; -fx-background-radius: 6;" />
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" style="-fx-background-color: #f0f2f5; -fx-padding: 10;">
+            <children>
+                <Button fx:id="logoutButton" onAction="#onLogoutButtonClick" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #d9534f; -fx-text-fill: white; -fx-font-weight: bold;" text="Cerrar Sesión" />
+            </children>
+        </HBox>
+    </bottom>
 
-                <Hyperlink fx:id="fcytLink" text="http://www.fcyt.umss.edu.bo/" style="-fx-padding: 10 0 0 0;" />
-
-            </VBox>
-        </content>
-    </Tab>
-    <Tab text="ElPlan">
-      <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="446.0" prefWidth="712.0">
-               <children>
-                   <TableView fx:id="tableView" editable="true" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
-                       <columnResizePolicy>
-                           <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
-                       </columnResizePolicy>
-                       <columns>
-                           <TableColumn fx:id="colNumero" prefWidth="48.800018310546875" text="Nº" />
-                           <TableColumn fx:id="colNivel" prefWidth="64.0" text="NIVEL" />
-                           <TableColumn fx:id="colCodigo" prefWidth="107.99996948242188" text="CODIGO" />
-                           <TableColumn fx:id="colMateria" prefWidth="253.60003662109375" text="MATERIA" />
-                           <TableColumn fx:id="colEstado" prefWidth="135.20001220703125" text="ESTADO" />
-                           <TableColumn fx:id="colDificultad" prefWidth="140.7999267578125" text="DIFICULTAD" />
-                           <TableColumn fx:id="colDescripcion" prefWidth="114.4000244140625" text="DESCRIPCION" />
-                       </columns>
-                   </TableView>
-               </children></AnchorPane>
-      </content>
-    </Tab>
-  </tabs>
-</TabPane>
+</BorderPane>

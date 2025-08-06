@@ -1,0 +1,34 @@
+
+/* --- FILA APROBADO (VERDE) --- */
+.aprobado-row .table-cell {
+    -fx-background-color: #9bd794; /* Un verde mucho más sutil y claro */
+    -fx-text-fill: black;
+}
+/* Cuando la fila está seleccionada, el color sigue siendo oscuro para buen contraste */
+.aprobado-row:selected .table-cell {
+    -fx-background-color: #4aab4b;
+    -fx-text-fill: white;
+}
+
+
+/* --- FILA CURSANDO (AZUL) --- */
+.cursando-row .table-cell {
+    -fx-background-color: #bedbf6
+    bf6; /* Un azul mucho más sutil y claro */
+    -fx-text-fill: black;
+}
+.cursando-row:selected .table-cell {
+    -fx-background-color: #357fce;
+    -fx-text-fill: white;
+}
+
+
+/* --- FILA PENDIENTE (ROJO) --- */
+.pendiente-row .table-cell {
+    -fx-background-color: #f8b9b9; /* Un rojo/rosado mucho más sutil y claro */
+    -fx-text-fill: black;
+}
+.pendiente-row:selected .table-cell {
+    -fx-background-color: #dc2f2f;
+    -fx-text-fill: white;
+}

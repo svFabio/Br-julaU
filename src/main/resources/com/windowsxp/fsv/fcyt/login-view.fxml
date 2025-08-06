@@ -45,6 +45,20 @@
             <Hyperlink fx:id="olvideContrasenaLink" text="¿Olvidaste tu contraseña?" />
         </children>
     </HBox>
-    <Button fx:id="loginButton" onAction="#onLoginButtonClick" defaultButton="true" mnemonicParsing="false" prefHeight="40.0" prefWidth="Infinity" style="-fx-background-color: #1877f2; -fx-text-fill: white; -fx-font-size: 16px; -fx-font-weight: bold; -fx-background-radius: 6;" text="INICIAR SESIÓN" />
+    <VBox alignment="CENTER" spacing="10.0">
+        <children>
+            <Button fx:id="loginButton" onAction="#onLoginButtonClick" defaultButton="true"
+                    prefHeight="45.0" maxWidth="300.0"
+                    style="-fx-background-color: #1877f2; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 6;"
+                    text="INICIAR SESIÓN" />
 
+            <Button fx:id="registerButton" onAction="#onRegisterButtonClick"
+                    prefHeight="35.0" maxWidth="250.0"
+                    style="-fx-background-color: #b5cfb0; -fx-text-fill: white; -fx-font-size: 12px; -fx-font-weight: bold; -fx-background-radius: 6;"
+                    text="REGISTRARSE" />
+        </children>
+        <padding>
+            <Insets top="10.0" />
+        </padding>
+    </VBox>
 </VBox>
