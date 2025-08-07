@@ -25,11 +25,11 @@
     </ImageView>
 
     <Label style="-fx-font-size: 28px; -fx-font-weight: bold;" text="Bienvenido" />
-    <Label style="-fx-font-size: 14px; -fx-text-fill: #606770;" text="Inicia sesión para continuar" />
+    <Label style="-fx-font-size: 14px; -fx-text-fill: #606770;" text="Ingresa datos de tu perfil para continuar" />
     <VBox prefHeight="20.0" />
     <VBox spacing="5.0">
         <children>
-            <Label style="-fx-font-weight: bold;" text="Usuario o Email" />
+            <Label style="-fx-font-weight: bold;" text="Usuario" />
             <TextField fx:id="usuarioField" promptText="Ingresa tu usuario" style="-fx-font-size: 14px;" />
         </children>
     </VBox>
@@ -50,12 +50,12 @@
             <Button fx:id="loginButton" onAction="#onLoginButtonClick" defaultButton="true"
                     prefHeight="45.0" maxWidth="300.0"
                     style="-fx-background-color: #1877f2; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 6;"
-                    text="INICIAR SESIÓN" />
+                    text="Ingresar al Perfil" />
 
             <Button fx:id="registerButton" onAction="#onRegisterButtonClick"
                     prefHeight="35.0" maxWidth="250.0"
                     style="-fx-background-color: #b5cfb0; -fx-text-fill: white; -fx-font-size: 12px; -fx-font-weight: bold; -fx-background-radius: 6;"
-                    text="REGISTRARSE" />
+                    text="Crear Nuevo Perfil" />
         </children>
         <padding>
             <Insets top="10.0" />

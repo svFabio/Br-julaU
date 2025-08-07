@@ -22,7 +22,6 @@
     -fx-text-fill: white;
 }
 
-
 /* --- FILA PENDIENTE (ROJO) --- */
 .pendiente-row .table-cell {
     -fx-background-color: #f8b9b9; /* Un rojo/rosado mucho más sutil y claro */

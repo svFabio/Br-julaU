@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import java.io.IOException;
 
@@ -17,6 +18,15 @@ public class PlanApplication extends Application {
         Parent root = fxmlLoader.load();
 
         Scene scene = new Scene(root,500,600);
+        // --- CÓDIGO ACTUALIZADO PARA LA NUEVA RUTA DEL ÍCONO ---
+        try {
+            // La ruta ahora apunta a la raíz de resources, a la carpeta 'images'
+            Image icon = new Image(getClass().getResourceAsStream("/images/brujula.png"));
+            stage.getIcons().add(icon);
+        } catch (Exception e) {
+            System.err.println("Error: No se pudo cargar el ícono desde la carpeta /images/.");
+        }
+        // --- FIN DEL CÓDIGO ---
         stage.setTitle("Iniciar Sesión - Plan de Estudios");
         stage.setScene(scene);
 

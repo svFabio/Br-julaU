@@ -5,6 +5,7 @@ module com.windowsxp.fsv.fcyt {
     //oara el Json
     requires com.google.gson;
     requires java.sql;
+    requires java.desktop;
 
 
     opens com.windowsxp.fsv.fcyt to javafx.fxml, com.google.gson;
